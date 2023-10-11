@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.fader {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.fader .fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: fade 9s infinite; /* Each image displayed for 3 seconds (3s) */
+    opacity: 0; /* Start with opacity 0 to create a fade-in effect */
+}
+
+.fader .fade:nth-child(1) {
+    background-image: url('./img/tree-selfie-orange.jpg');
+    animation-delay: 0s; /* No delay for the first image */
+}
+
+.fader .fade:nth-child(2) {
+    background-image: url('./img/tree-selfie-pink.jpg');
+    animation-delay: 3s; /* Start fading in the second image after 3 seconds */
+}
+
+.fader .fade:nth-child(3) {
+    background-image: url('./img/tree-selfie-blue.jpg');
+    animation-delay: 6s; /* Start fading in the third image after 6 seconds */
+}
+
+.fader .fade:nth-child(4) {
+    background-image: url('./img/tree-selfie-yellow.jpg');
+    animation-delay: 9s; /* Start fading in the fourth image after 9 seconds */
+}
+
+.fader .fade:nth-child(5) {
+    background-image: url('./img/tree-selfie-boldpink.jpg');
+    animation-delay: 12s; /* Start fading in the fifth image after 12 seconds */
+}
+
+.fader .fade:nth-child(6) {
+    background-image: url('./img/tree-selfie-og.jpg');
+    animation-delay: 15s; /* Start fading in the sixth image after 15 seconds */
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0; /* Start and end with opacity 0 for a fade-in and fade-out effect */
+    }
+    40%, 60% {
+        opacity: 1; /* 10% and 90% marks ensure fully visible state in between */
+    }
+}
