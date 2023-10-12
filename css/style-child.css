@@ -18,3 +18,23 @@ body {
     filter: drop-shadow(6px 6px #f472b0) grayscale(44%) drop-shadow(-7px -7px  #5183c2);
     transform: scale(1.1);
 }
+
+
+
+
+/* CONTACT PAGE STYLE */
+
+body.contact {
+    background-image: url(../img/tree-selfie-og.jpg);
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}

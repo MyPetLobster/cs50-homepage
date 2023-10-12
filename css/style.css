@@ -29,33 +29,28 @@ body {
 }
 
 .fader .fade:nth-child(1) {
-    background-image: url('./img/tree-selfie-orange.jpg');
+    background-image: url('../img/tree-selfie-orange.jpg');
     animation-delay: 0s; /* No delay for the first image */
 }
 
 .fader .fade:nth-child(2) {
-    background-image: url('./img/tree-selfie-pink.jpg');
+    background-image: url('../img/tree-selfie-pink.jpg');
     animation-delay: 3s; /* Start fading in the second image after 3 seconds */
 }
 
 .fader .fade:nth-child(3) {
-    background-image: url('./img/tree-selfie-blue.jpg');
+    background-image: url('../img/tree-selfie-blue.jpg');
     animation-delay: 6s; /* Start fading in the third image after 6 seconds */
 }
 
 .fader .fade:nth-child(4) {
-    background-image: url('./img/tree-selfie-yellow.jpg');
+    background-image: url('../img/tree-selfie-yellow.jpg');
     animation-delay: 9s; /* Start fading in the fourth image after 9 seconds */
 }
 
 .fader .fade:nth-child(5) {
-    background-image: url('./img/tree-selfie-boldpink.jpg');
+    background-image: url('../img/tree-selfie-boldpink.jpg');
     animation-delay: 12s; /* Start fading in the fifth image after 12 seconds */
-}
-
-.fader .fade:nth-child(6) {
-    background-image: url('./img/tree-selfie-og.jpg');
-    animation-delay: 15s; /* Start fading in the sixth image after 15 seconds */
 }
 
 @keyframes fade {
@@ -96,7 +91,7 @@ img#my-dayjob {
 }
 
 img#my-dreams {
-    margin-right 50px;
+    margin-right: 50px;
     width: 200px;
     background-color: transparent;
 }
