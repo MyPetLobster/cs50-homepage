@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
+/* My Day Job Style */
 
 body {
     background-color: #f2944a;
 }
 .container {
     margin: 10px 50px;
-    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .container img {
