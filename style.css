@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(216, 186, 221);
+    background-color: rgb(89, 147, 229);
 }
 
 .fader {
@@ -83,6 +83,41 @@ img#my-music {
     background-color: transparent;
 }
 
+img#my-art {
+    margin-left: 100px;
+    width: 200px;
+    background-color: transparent;
+}
+
+img#my-dayjob {
+    margin-left: 100px;
+    width: 200px;
+    background-color: transparent;
+}
+
+img#my-dreams {
+    margin-right 50px;
+    width: 200px;
+    background-color: transparent;
+}
+
+img.bottom-nav {
+    width: 150px;
+    background-color: transparent;
+}
+
+img.divider {
+    width: 30px;
+    background-color: transparent;
+}
+
+
+img#copyright {
+    width: 150px;
+    margin-left: 100px;
+    background-color: transparent;
+}
+
 .words a {
     background-color: transparent;
     text-decoration: none; /* Removes underline from links, you can adjust this as needed */
@@ -93,8 +128,9 @@ img#my-music {
 .container {
     display: flex;
     height: 100px;
-    align-items:center;
-    background-color: rgb(216, 186, 221);
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(89, 147, 229);
 }
 
 .container.two {
@@ -108,7 +144,7 @@ img#my-music {
     position: absolute;
     top: 400px;
     right: 0px;
-    width: 600px;
+    width: 300px;
     height: 100px;
     background-color: rgb(153, 200, 98);
 

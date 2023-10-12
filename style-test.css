@@ -1,7 +1,6 @@
 body {
     background-image: url(img/tree-selfie-yellow.jpg);
     background-color: white;
-    opacity: 50%;
 }
 /* HOMEPAGE BUTTON LINKS BEGIN*/
 
@@ -11,6 +10,11 @@ body {
 }
 
 img#my-music {
+    width: 200px;
+    background-color: transparent;
+}
+
+img#my-art {
     width: 200px;
     background-color: transparent;
 }
