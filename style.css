@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    background-color: rgb(216, 186, 221);
 }
 
 .fader {
@@ -89,3 +90,26 @@ img#my-music {
 }
 
 
+.container {
+    display: flex;
+    height: 100px;
+    align-items:center;
+    background-color: rgb(216, 186, 221);
+}
+
+.container.two {
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    background-color: rgb(193, 148, 64);
+}
+
+.container.three {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(153, 200, 98);
+
+}
