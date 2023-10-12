@@ -1,0 +1,18 @@
+body {
+    background-color: #f2944a;
+}
+.container {
+    margin: 10px 50px;
+}
+
+.container img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.container img:hover {
+    filter: contrast(175%) brightness(3%);
+    filter: drop-shadow(6px 6px #f472b0) grayscale(44%) drop-shadow(-7px -7px  #5183c2);
+    transform: scale(1.1);
+}
