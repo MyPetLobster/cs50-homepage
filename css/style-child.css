@@ -3,6 +3,8 @@ body {
 }
 .container {
     margin: 10px 50px;
+    align-self: center;
+    align-items: center;
 }
 
 .container img {
