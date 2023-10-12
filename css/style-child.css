@@ -52,6 +52,9 @@ body.contact {
 .email-me a {
     text-align: center;
     font-size: 180px;
+    @media (max-width: 540px) {
+        font-size: 100px;
+    }
     font-family: 'Amatic SC', sans-serif; 
     text-decoration: none; 
     color: #fdcb36; 
@@ -66,3 +69,50 @@ body.contact {
         0.03em -0.03em black,
         0.03em 0.03em black;
 }
+
+
+
+/* ABOUT ME STYLE */
+
+body.about-me {
+    background-image: url(../img/collage.jpg);
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    display: flex;
+}
+
+#abt-header {
+    color: #0f2641;
+    text-shadow: 2px 2px 1px #f472b080;
+    font-family: 'Amatic SC', sans-serif; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+#abt-para {
+    color: #0f2641;
+    text-shadow: 1px 1px 1px #f472b146;
+    background-color: #4c7fbd54;
+    font-family: 'Amatic SC', sans-serif; 
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1.5rem;
+}
+
+
