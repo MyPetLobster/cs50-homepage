@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
 body {
     background-color: #f2944a;
 }
@@ -20,8 +23,6 @@ body {
 }
 
 
-
-
 /* CONTACT PAGE STYLE */
 
 body.contact {
@@ -37,4 +38,31 @@ body.contact {
     background-size: cover;
     background-position: center;
     z-index: -1;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-me a {
+    text-align: center;
+    font-size: 180px;
+    font-family: 'Amatic SC', sans-serif; 
+    text-decoration: none; 
+    color: #fdcb36; 
+    font-weight: 700;
+    text-shadow:
+        0.03em 0 black,
+        0 0.03em black,
+        -0.03em 0 black,
+        0 -0.03em black,
+        -0.03em -0.03em black,
+        -0.03em 0.03em black,
+        0.03em -0.03em black,
+        0.03em 0.03em black;
 }
