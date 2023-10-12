@@ -1,0 +1,23 @@
+body {
+    background-image: url(img/tree-selfie-yellow.jpg);
+    background-color: white;
+    opacity: 50%;
+}
+/* HOMEPAGE BUTTON LINKS BEGIN*/
+
+.words {
+    background-color: transparent;
+    border: none;
+}
+
+img#my-music {
+    width: 200px;
+    background-color: transparent;
+}
+
+.words a {
+    background-color: transparent;
+    text-decoration: none; /* Removes underline from links, you can adjust this as needed */
+    color: inherit; /* Inherits the color property from the parent element */
+}
+

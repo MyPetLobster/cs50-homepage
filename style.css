@@ -1,3 +1,5 @@
+/* ANIMATED BACKGROUND START */
+
 body {
     margin: 0;
 }
@@ -7,6 +9,9 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 .fader .fade {
@@ -18,7 +23,8 @@ body {
     background-size: cover;
     background-position: center;
     animation: fade 9s infinite; /* Each image displayed for 3 seconds (3s) */
-    opacity: 0; /* Start with opacity 0 to create a fade-in effect */
+    opacity: 0; /* Start with opacity 0 to create a fade-in effect */    
+    z-index: -1;
 }
 
 .fader .fade:nth-child(1) {
@@ -59,3 +65,27 @@ body {
         opacity: 1; /* 10% and 90% marks ensure fully visible state in between */
     }
 }
+
+/* ANIMATED BACKGROUND END*/
+
+/* HOMEPAGE BUTTON LINKS BEGIN*/
+
+.words {
+    display:flex;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+}
+
+img#my-music {
+    width: 200px;
+    background-color: transparent;
+}
+
+.words a {
+    background-color: transparent;
+    text-decoration: none; /* Removes underline from links, you can adjust this as needed */
+    color: inherit; /* Inherits the color property from the parent element */
+}
+
+
