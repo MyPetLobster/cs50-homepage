@@ -108,6 +108,7 @@ body.about-me {
 }
 
 #abt-para {
+    border-radius: 6px;
     color: #0f2641;
     text-shadow: 1px 1px 1px #f472b146;
     background-color: #4c7fbd54;
@@ -121,4 +122,28 @@ body.about-me {
     margin-top:1.5rem;
 }
 
+.clock-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.clock {
+    background: #f189f169;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-family: 'Amatic SC', sans-serif; 
+    font-size: 1.5rem;
+}
+
+
+.clock span{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
 
