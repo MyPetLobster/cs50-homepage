@@ -41,6 +41,8 @@ body.contact {
     background-size: cover;
     background-position: center;
     z-index: -1;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact {
@@ -147,3 +149,24 @@ body.about-me {
     position: relative;
 }
 
+
+/* NAVBAR STYLE */
+
+nav {
+    display: flex;
+    max-width: 100%;
+    margin-left: 2rem;
+    gap: 2px;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    flex-grow: 1;
+}
+
+.contact-test {
+    background: #a617a8bd;
+}
