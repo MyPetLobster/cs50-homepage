@@ -118,7 +118,7 @@ body.about-me {
     background-color: #4c7fbd54;
     font-family: 'Amatic SC', sans-serif; 
     text-align: center;
-    justify-content: center;
+    margin-bottom: 2rem;
     font-size: 2rem;
     padding: 1rem;
     margin-left:2rem;
@@ -127,11 +127,11 @@ body.about-me {
 }
 
 .clock-box {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -175,20 +175,22 @@ nav a {
 
 .about-nav {
     background: #2686c5bd;
-    display: flex;
-    max-width: 100%;
     height: 5rem;
     margin-top:5rem;
+    margin-bottom: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     gap: 2px;
     border-radius: 6px;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
     align-content: center;
     background: #f2934a81;
+    border: 5px solid black;
 }
 
 .about-nav a {
     margin: 2rem;
 }
+
